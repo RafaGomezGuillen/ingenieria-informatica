@@ -1,0 +1,6 @@
+Teorema de Bolzano
+Sea f una función real continua en un intervalo cerrado [a,b] con f(a) y f(b) de signos contrarios. 
+Entonces existe al menos un punto c del intervalo abierto (a, b) con f(c) = 0. 
+Teorema de Rolle
+Si \ f es una función continua definida en un intervalo cerrado \ [a, b],Rolle derivable sobre el intervalo abierto \ (a, b) y \ f\left(a\right) = f\left(b\right) . 
+Entonces existe al menos un punto \ c perteneciente al intervalo \ (a, b) tal que \ f'(c) = 0.
