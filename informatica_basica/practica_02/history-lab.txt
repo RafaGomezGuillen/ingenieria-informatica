@@ -1,0 +1,51 @@
+    1  clear
+    2  cd practicas
+    3  mkdir ejercicios
+    4  ls
+    5  cd
+    6  tree
+    7  mv ejercicios_comandos_linux.tar.gz
+    8  mv ejercicios_comandos_linux.tar.gz /home/usuario/practicas/ejercicios
+    9  cd practicas
+   10  cd problemas
+   11  cd ejercicios
+   12  ls
+   13  tar xvfz ejercicios_comandos_linux.tar.gz
+   14  ls
+   15  cd ejercicios_comandos_linux 
+   16  ls -a; wc -l
+   17  ./taxonomy
+   18  tree
+   19  mv elegía_MHernández.txt /practicas/ejercicios_comandos_linux/generos_literarios/lírico/elegía
+   20  mv elegía_MHernández.txt practicas/ejercicios_comandos_linux/generos_literarios/lírico/elegía
+   21  mv elegía_MHernández.txt ~/practicas/ejercicios_comandos_linux/generos_literarios/lírico/elegía
+   22  mv elegía_MHernández.txt generos_literarios/lírico/elegía
+   23  tree
+   24  cd generos_literarios/dramático/tragedia
+   25  mv tragedia_Shakespeare.txt tragedia
+   26  wich tragedia_Shakespeare.txt
+   27  which tragedia_Shakespeare.txt
+   28  ls
+   29  tree
+   30  cd generos_literarios
+   31  cd
+   32  cd practicas/ejercicios/ejercicios_comandos_linux/generos_literarios
+   33  tree
+   34  cd practicas/ejercicios/ejercicios_comandos_linux
+   35  cd
+   36  cd practicas/ejercicios/ejercicios_comandos_linux
+   37  mv    tragedia_Shakespeare.txt
+   38  mv tragedia_Shakespeare.txt generos_literarios/dramático/tragedia
+   39  tree
+   40  cd generos_literarios/lírico
+   41  cd elegía
+   42  ls
+   43  wc -c elegía_MHernández.txt
+   44  wc -w elegía_MHernández.txt
+   45  wc -w elegía_MHernández.txt > palabras.txt
+   46  ls
+   47  cat palabras.txt
+   48  history
+   49  hcd
+   50  cd
+   51  history > history-lab.txt

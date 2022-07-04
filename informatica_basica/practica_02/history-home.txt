@@ -1,0 +1,15 @@
+    1  cd practicas
+    2  mkdir ejercicios
+    3  cd practicas
+    4  tree
+    5  cd
+    6  tree
+    7  mv ejercicios_comandos_linux.tar.gz
+    8  mv ejercicios_comandos_linux.tar.gz home/usuario/practicas/ejercicios
+    9  mv ejercicios_comandos_linux.tar.gz /home/usuario/practicas/ejercicios
+   10  tree
+   11  cd practicas
+   12  cd ejercicios
+   13  ls
+   14  cd
+   15  history > history-home.txt
