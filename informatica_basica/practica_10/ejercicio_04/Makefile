@@ -5,16 +5,16 @@
 #
 # @autor Rafael Gomez Guillen alu0101462578
 # @fecha 13/12/2021
-# @brief Makefile del programa my_cp
+# @brief Makefile del programa delete_blank_lines
 # 
 
 CXX = g++						          
 CXXFLAGS = -std=c++14 -g -Wall	 
 LDFLAGS =						           
 
-all: my_cp
+all: delete_blank_lines
 
-my_cp: my_cp.o my_cp_main.o
+delete_blank_lines: delete_blank_lines.o delete_blank_lines_main.o
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
 
@@ -22,7 +22,7 @@ my_cp: my_cp.o my_cp_main.o
 	$(CXX) $(CXXFLAGS) -c $<
 
 clean :
-	rm -rf *.o my_cp ../doc
+	rm -rf *.o delete_blank_lines ../doc
 	rm -rf *~ basura b i
 	rm -rf a.out
 	find . -name '*~' -exec rm {} \;
