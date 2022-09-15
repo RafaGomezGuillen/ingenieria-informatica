@@ -1,4 +1,4 @@
-# universidad
+# Ingeniería informática
 
 Hola, estas son las prácticas de algunas de las asignaturas del primer año de la carrera de Ingenería infórmatica de La Universidad de La Laguna.
 
